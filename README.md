@@ -1,15 +1,5 @@
 # url_word_counter
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
 ## Project Setup
 
 ```sh
@@ -22,8 +12,15 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Project description
 
-```sh
-npm run build
-```
+Run `npm install`
+Start `npm run dev`
+Visit `http://localhost:5173/` to see the main page
+
+Mini project that allows you to type in a URL into the field and gives you the top 25 words with the number of counts on the page
+
+1. Type in a URL - Must contain https:// otherwise the request will fail.
+2. Click submit button
+
+Result: Should print the top 25 words
