@@ -14,10 +14,10 @@ npm run dev
 
 ### Project description
 
-Run `npm install`
-Start `npm run dev`
-Start `node src/server/server.js` to run the server
-Visit `http://localhost:5173/` to see the main page
+1. Run ```npm install```
+2. Start ```npm run dev```
+3. Start ```node src/server/server.js``` to run the server
+4. Visit ```http://localhost:5173/``` to see the main page
 
 Mini project that allows you to type in a URL into the field and gives you the top 25 words with the number of counts on the page
 
